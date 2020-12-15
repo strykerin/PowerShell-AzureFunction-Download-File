@@ -1,4 +1,4 @@
-# PowerShell-AzureFunction-Download-File
+# PowerShell Azure Function Download File
 
 This PowerShell Azure Function will download a file every time it's requested. The file will be downloaded to the path `D:\home\data\SitePackages\CatPicture.jpg` in an Azure Function App.
 
