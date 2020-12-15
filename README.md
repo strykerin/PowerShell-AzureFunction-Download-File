@@ -17,3 +17,8 @@ $url = "https://en.wikipedia.org/wiki/File:Cat_poster_1.jpg"
 $output = "D:\home\data\SitePackages\CatPicture.jpg"
 Invoke-WebRequest -Uri $url -OutFile $output
 ```
+## Create and Deploy a PowerShell Azure Function using the cli
+
+The following Microsoft's documentation has a great step by step teaching how to create a PowerShell function that responds to HTTP requests:
+
+https://docs.microsoft.com/en-us/azure/azure-functions/create-first-function-cli-powershell?tabs=azure-cli%2Cbrowser 
