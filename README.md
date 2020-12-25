@@ -21,7 +21,7 @@ Invoke-WebRequest -Uri $url -OutFile $output
 To publish the PowerShell function to Azure Function App, run the following command:
 
 ``` PowerShell
-func azure functionapp publish <Your Function App Name>
+func azure functionapp publish <YourFunctionAppName>
 ```
 
 The following Microsoft's documentation has a great step by step teaching how to create a PowerShell function that responds to HTTP requests:
