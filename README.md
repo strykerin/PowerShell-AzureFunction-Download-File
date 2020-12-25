@@ -18,6 +18,12 @@ Invoke-WebRequest -Uri $url -OutFile $output
 ```
 ## Create and Deploy a PowerShell Azure Function using the cli
 
+To publish the PowerShell function to Azure Function App, run the following command:
+
+``` PowerShell
+func azure functionapp publish <Your Function App Name>
+```
+
 The following Microsoft's documentation has a great step by step teaching how to create a PowerShell function that responds to HTTP requests:
 
 https://docs.microsoft.com/en-us/azure/azure-functions/create-first-function-cli-powershell?tabs=azure-cli%2Cbrowser 
